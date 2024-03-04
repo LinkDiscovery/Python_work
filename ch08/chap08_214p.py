@@ -9,7 +9,8 @@
 #     """주문내용을 요약합니다"""
 #     print("\nMaking a pizza with the following toppings:")
 #     for topping in toppings : 
-#         print(f"-{topping}")
+#         print(f"-{topping}")3
+
     
 # make_pizza('pepperoni')
 # make_pizza('mushrooms','green peppers','extra cheese')
