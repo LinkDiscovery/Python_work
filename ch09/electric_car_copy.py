@@ -1,26 +1,27 @@
-class Car:
-    """자동차 클래스"""
-    def __init__(self, make, model, year):
-        self.make=make
-        self.model=model
-        self.year=year
-        self.odometer_reading=0
+# class Car:
+    # """자동차 클래스"""
+    # def __init__(self, make, model, year):
+    #     self.make=make
+    #     self.model=model
+    #     self.year=year
+    #     self.odometer_reading=0
 
-    def get_descriptive_name(self):
-        long_name=f"{self.year} {self.make} {self.make}"
-        return long_name.title()
+    # def get_descriptive_name(self):
+    #     long_name=f"{self.year} {self.make} {self.make}"
+    #     return long_name.title()
     
-    def read_odometer(self):
-        print(f"이차의 주행거리는 {self.odometer_reading} 마일")
+    # def read_odometer(self):
+    #     print(f"이차의 주행거리는 {self.odometer_reading} 마일")
 
-    def update_odometer(self, mileage):
-        if mileage >= self.odometer_reading:
-            self.odometer_reading = mileage
-        else:
-            print("주행기록계를 줄일 수 없다")
+    # def update_odometer(self, mileage):
+    #     if mileage >= self.odometer_reading:
+    #         self.odometer_reading = mileage
+    #     else:
+    #         print("주행기록계를 줄일 수 없다")
 
-    def increment_odometer(self, miles):
-        self.odometer_reading += miles
+    # def increment_odometer(self, miles):
+    #     self.odometer_reading += miles
+from car import Car 
 
 class Battery:
     """배터리"""
