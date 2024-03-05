@@ -1,4 +1,4 @@
-from module_name import * ### 잘 사용하지 않는다.
+ # from module_name import * ### 잘 사용하지 않는다.
 
 import car as c
 #improt numpy as np

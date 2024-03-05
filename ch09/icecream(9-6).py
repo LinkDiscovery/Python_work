@@ -26,7 +26,7 @@ class IceCreamStand(Restaurant):
         self.flavors = flavors
     
     def show_flavors(self):
-        print(f"아이스크림 맛은 {}입니다.".format(self.flavors)) #deep러닝에서 format 을 많이 사용함
+        print("아이스크림 맛은 {}입니다.".format(self.flavors)) #deep러닝에서 format 을 많이 사용함
        #  print(f"아이스크림 맛은 '{self.flavors}'입니다.") 위랑 같음
 new_rest = Restaurant()
 ice_cream = IceCreamStand('이태리','피자','매운맛')
