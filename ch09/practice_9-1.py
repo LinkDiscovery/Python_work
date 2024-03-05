@@ -5,7 +5,7 @@ class Restaurant :
         self.cuisine_type=type
         
     def describe_restaurant(self):
-        print(f"이름:{Restaurant_obj.restaurant_name} 타입:{Restaurant_obj.cuisine_type}")
+        print(f"이름:{self.restaurant_name} 타입:{self.cuisine_type}")
         
     def open_restaurant(self):
         print(f"{self.restaurant_name}의 문이 열려있습니다.")
