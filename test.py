@@ -1,15 +1,15 @@
-a=21
-b=16
 
-c = (a*60)+b-45
-hr = int(c/60)
-mi = int(c%60)
+            
+List = [1,2,3,4,7,9,6]
+List.sort()
+for a in List:
+    print(a)
+    
+print(List[0],List[-1])
+    
 
-if a <= 0 :
-    a += 24
-    c = (a*60)+b-45
-    hr = int(c/60)
-    mi = int(c%60)
-    print(hr, mi) 
-else : 
-	print(hr,mi)
+    
+q='abc'
+
+for p in range(len(q)) :
+    print(q(p))
